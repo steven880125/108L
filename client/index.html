@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>哈囉</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+        <script src="http://fs.mis.kuas.edu.tw/~s1106137143/MVC/client/include/ActionHandler.js"></script>
+        <script src="http://fs.mis.kuas.edu.tw/~s1106137143/MVC/client/modules/user_profile/user_profile_show_management_page.js"></script>
+        <script>
+        $(document).ready(function()
+        {
+            $("#user_profile").click(function()
+            {
+               (new user_profile_show_management_page('user_profile','show_management_page','content')).run();
+            });
+            
+            $("#merchant_profile").click(function()
+            {
+                
+            });
+            
+        });
+        </script>
+    </head>
+    <body>
+        <button id="user_profile">會員基本資料</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button id="merchant_profile">商店管理</button><br>
+        <div id="content"></div>
+    </body>
+</html>

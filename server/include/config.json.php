@@ -1,0 +1,13 @@
+<?php
+/*
+{
+    "db":
+    {
+        "db_host":"db.mis.kuas.edu.tw",
+        "db_name":"s1106137143",
+        "db_password":"0916588980",
+        "db_user":"s1106137143"
+    }
+}
+ */
+?>
